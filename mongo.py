@@ -1,5 +1,5 @@
 import pymongo
-
+print("added print line")
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 
 mydb = myclient["mydatabase"]
